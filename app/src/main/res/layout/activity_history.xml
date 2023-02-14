@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".history">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/vh" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="180dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:text="Valentine's Day, also called Saint Valentine's Day or the Feast of Saint Valentine, is celebrated annually on February 14. It originated as a Christian feast day honoring a martyr named
+                Valentine. Through later folk traditions, it has become a significant cultural and commercial celebration
+                of romance and love in many regions of the world.
+There are a number of martyrdom stories associated with various Saint Valentines connected to February 14,
+including an account of the imprisonment of Saint Valentine of Rome for ministering to Christians persecuted under the Roman Empire in the third century. According to an early tradition, Saint Valentine restored sight to the blind daughter of his jailer. Numerous later additions to the legend have better related it to the theme of love: an 18th-century embellishment to the legend claims he wrote the jailer's daughter a letter signed Your Valentine as a farewell before his execution; another tradition posits that Saint Valentine performed weddings for Christian soldiers who were forbidden to marry.
+The 8th-century Gelasian Sacramentary recorded the celebration of the Feast of Saint Valentine on February 14.
+The day became associated with romantic love in the 14th and 15th centuries when notions of courtly love
+ flourished, apparently by association with the lovebirds of early spring. In 18th-century England,
+  it grew into an occasion in which couples expressed their love for each other by presenting flowers,
+  offering confectionery, and sending greeting cards (known as valentines). Valentine's Day symbols that are used today include the heart-shaped outline, doves, and the figure of the winged Cupid. Since the 19th century, handwritten valentines have given way to mass-produced greeting cards. In Italy, Saint Valentine's Keys are given to lovers as a romantic symbol and an invitation to unlock the givers heart, as well as to children to ward off epilepsy (called Saint Valentine's Malady).
+            Saint Valentine's Day is not a public holiday in any country, although it is an official feast day in the Anglican Communion and the Lutheran Church.[14] Many parts of the Eastern Orthodox Church also celebrate Saint Valentine's Day on July 6 in honor of Roman presbyter Saint Valentine, and on July 30 in honor of Hierolatry Valentine, the Bishop of Interregna (modern Terni)"
+                android:textSize="40dp" />
+
+
+        </ScrollView>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/knowmore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginLeft="150dp"
+        android:layout_weight="1"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:background="@color/transparent"
+        android:fontFamily="cursive"
+        android:text="Know More" />
+
+</RelativeLayout>
